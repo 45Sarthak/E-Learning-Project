@@ -4,18 +4,21 @@
     box-sizing:border-box;
     font-family:"poppins",sans-serif;
 }
-body{
+#first{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     /*-------------------*/
-    /* background-color: url(front/image.jpg) no repeat; */
-    background-image:url(book_2.avif) no repeat;
+
+    /* backGround img insert HERE */
+    background-image:url(book_2.avif);
     background-size: cover;
     background-position: center;
-    /*-------------------*/
+    /*---------END----------*/
 }
+
+
 .wrapper{
     width:420px;
     background-color:transparent;
